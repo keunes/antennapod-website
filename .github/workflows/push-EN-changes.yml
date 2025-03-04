@@ -21,6 +21,7 @@ jobs:
       - name: Install mdpo
         run: |
           pip install --upgrade setuptools
+          pip install pymd4c
           pip install mdpo
           md2po --version
       - name: Create folder for files to be copied
