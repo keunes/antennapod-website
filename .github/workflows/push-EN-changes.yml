@@ -24,7 +24,7 @@ jobs:
           pip install importlib-metadata
           pip install toml
           pip install setuptools-metadata
-          pip install mdpo
+          pip install mdpo --use-pep517
           md2po --version
       - name: Create folder for files to be copied
         run: mkdir _i18n/translation-files
