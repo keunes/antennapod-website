@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install mdpo
         run: |
-          sudo apt-get install md4c-html
+          sudo apt-get install libmd4c-html0
           pip install mdpo
           sudo apt-get install libmd4c-dev
           pip install mdpo
